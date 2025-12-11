@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    match:abels:
+    matchLabels:
       app: linkding
   template:
     metadata:
