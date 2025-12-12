@@ -12,11 +12,17 @@ spec:
       labels:
         app: linkding
     spec:
+      securityContext
+        fsGroup: 33 # www-data gid
+        runAsUser: 33 # www-data uid
+        runAsGroup: 33 # www-data gid
       containers:
         - name: linkding
           image: sissbruecker/linkding:1.31.0
           ports:
             - containerPort: 9090
+          securityContext:
+            allowPrivilegeEscalation: flase
           volumeMounts:
             - mountPath: /etc/linkding/data
               name: linkding-data
