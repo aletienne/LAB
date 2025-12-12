@@ -22,7 +22,7 @@ spec:
           ports:
             - containerPort: 9090
           securityContext:
-            allowPrivilegeEscalation: flase
+            allowPrivilegeEscalation: false
           volumeMounts:
             - mountPath: /etc/linkding/data
               name: linkding-data
