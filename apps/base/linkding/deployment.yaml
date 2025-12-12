@@ -12,7 +12,7 @@ spec:
       labels:
         app: linkding
     spec:
-      securityContext
+      securityContext:
         fsGroup: 33 # www-data gid
         runAsUser: 33 # www-data uid
         runAsGroup: 33 # www-data gid
