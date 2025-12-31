@@ -26,6 +26,11 @@ spec:
           volumeMounts:
             - mountPath: /etc/linkding/data
               name: linkding-data
+          envFrom:
+            #- configMapRef:
+            #    name: linkding-config
+            - secretRef:
+                name: linkding-container-env
       volumes:
         - name: linkding-data
           persistentVolumeClaim:
