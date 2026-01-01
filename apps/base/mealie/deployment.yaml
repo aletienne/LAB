@@ -20,7 +20,7 @@ spec:
           name: mealie
           env:
             - name: BASE_URL
-              value: :https://mealie.etiennes.dev"
+              value: "https://mealie.etiennes.dev"
           ports:
             - containerPort: 9000
           volumeMounts:
