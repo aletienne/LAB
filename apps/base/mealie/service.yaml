@@ -7,9 +7,9 @@ metadata:
   namespace: mealie
 spec:
   ports:
-  - port: 8000
+  - port: 9000
     protocol: TCP
-    targetPort: 8000
+    targetPort: 9000
   selector:
     app: mealie
   type: ClusterIP
