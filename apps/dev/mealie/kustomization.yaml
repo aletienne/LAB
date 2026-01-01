@@ -5,4 +5,5 @@ resources:
   - ../../base/mealie
   - cloudflare.yaml
   - cloudflare-secret.yaml
+  - mealie-container-env-secret.yaml
  
