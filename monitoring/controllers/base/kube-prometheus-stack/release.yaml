@@ -37,7 +37,7 @@ spec:
         ## IngressClassName for Grafana Ingress.
         ## Should be provided if Ingress is enable.
         ##
-        ingressClassName: traefic
+        ingressClassName: traefik
         hosts:
           - grafana.dev.local
 
