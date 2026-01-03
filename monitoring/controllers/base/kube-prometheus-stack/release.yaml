@@ -33,10 +33,6 @@ spec:
       adminPassword: ewrgma0
       ingress:
         enabled: true
-
-        ## IngressClassName for Grafana Ingress.
-        ## Should be provided if Ingress is enable.
-        ##
         ingressClassName: traefik
         hosts:
           - grafana.dev.local
