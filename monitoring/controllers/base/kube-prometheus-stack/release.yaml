@@ -42,6 +42,6 @@ spec:
           - grafana.dev.local
 
         tls: []
-        # - secretName: grafana-general-tls
-        #   hosts:
-        #   - grafana.example.com
+         - secretName: grafana-tls-secret
+           hosts:
+           - grafana.dev.local
