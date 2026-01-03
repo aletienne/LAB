@@ -31,3 +31,17 @@ spec:
   values:
     grafana:
       adminPassword: ewrgma0
+      ingress:
+        enabled: true
+
+        ## IngressClassName for Grafana Ingress.
+        ## Should be provided if Ingress is enable.
+        ##
+        ingressClassName: traefic
+        hosts:
+          - grafana.dev.local
+
+        tls: []
+        # - secretName: grafana-general-tls
+        #   hosts:
+        #   - grafana.example.com
