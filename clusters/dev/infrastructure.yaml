@@ -25,7 +25,7 @@ metadata:
   namespace: flux-system
 spec:  
   dependsOn:
-    - name: metallb
+    - name: infrastructure-controllers
   interval: 1m0s
   retryInterval: 1m
   timeout: 5m
