@@ -6,7 +6,7 @@ metadata:
 spec:
   interval: 6h
   releaseName: metallb
-  targetNamespace: metallb-system
+  targetNamespace: infrastrucrture
   chart:
     spec:
       chart: metallb
