@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: metallb
+  name: infrastructure-controllers
   namespace: flux-system
 spec:
   interval: 1m0s
@@ -21,7 +21,7 @@ spec:
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: metallb-configs
+  name: infrastructure-configs
   namespace: flux-system
 spec:  
   dependsOn:
