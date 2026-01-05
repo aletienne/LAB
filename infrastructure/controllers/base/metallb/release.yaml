@@ -2,18 +2,18 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: metallb
-  namespace: infrastructure
+  namespace: metallb
 spec:
   interval: 6h
   releaseName: metallb
-  targetNamespace: infrastructure
+  targetNamespace: metallb
   chart:
     spec:
       chart: metallb
       sourceRef:
         kind: HelmRepository
         name: metallb-repo
-        namespace: infrastructure
+        namespace: metallb
       interval: 12h
   install:
     createNamespace: false

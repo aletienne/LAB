@@ -2,7 +2,7 @@ apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
 metadata:
   name: metallb-lan-adv
-  namespace: infrastructure
+  namespace: metallb
 spec:
   ipAddressPools:
     - metallb-lan-pool
