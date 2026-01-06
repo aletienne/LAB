@@ -4,8 +4,10 @@ metadata:
   name: mealie-data
   namespace: mealie
 spec:
+  storageClassName: qnap-nfs
   accessModes:
-    - ReadWriteOnce
+#    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 500Mi
