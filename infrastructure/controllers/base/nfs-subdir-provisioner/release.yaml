@@ -17,7 +17,7 @@ spec:
       interval: 12h
   values:
     nfs:
-      server: 192.168.0.4
+      server: 192.168.20.10
       path: /dev
       # Optional: set mount options if you want to force NFS version, etc.
       mountOptions:
