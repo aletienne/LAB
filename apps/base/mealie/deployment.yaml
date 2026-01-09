@@ -16,7 +16,7 @@ spec:
         app: mealie
     spec:
       containers:
-        - image: ghcr.io/mealie-recipes/mealie:latest
+        - image: ghcr.io/mealie-recipes/mealie:3.9.2
           name: mealie
           envFrom:
             - secretRef:
