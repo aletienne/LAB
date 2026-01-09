@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: linkding-data-pvc
+  name: linkding-data2-pvc
   namespace: linkding
 spec:
   storageClassName: qnap-nfs
