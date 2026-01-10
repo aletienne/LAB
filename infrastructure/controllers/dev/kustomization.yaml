@@ -5,3 +5,4 @@ resources:
   - renovate
   - nfs-subdir-provisioner
   - tailscale
+  - cert-manager
