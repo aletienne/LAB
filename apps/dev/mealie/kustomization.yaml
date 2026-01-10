@@ -6,5 +6,5 @@ resources:
   - cloudflare.yaml
   - cloudflare-secret.yaml
   - mealie-container-env-secret.yaml
-  - mealie-ingress.yaml
+  - tailscale-ingress.yaml
  
