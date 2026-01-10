@@ -3,6 +3,8 @@ kind: Service
 metadata:
   labels:
     app: mealie
+  annotations:
+    tailscale.com/expose: "true"
   name: mealie
   namespace: mealie
 spec:
