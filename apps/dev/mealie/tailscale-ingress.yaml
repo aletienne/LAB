@@ -5,7 +5,7 @@ metadata:
   namespace: mealie
   annotations:
     kubernetes.io/ingress.class: traefik
-    cert-manager.io/cluster-issuer: letsencrypt-dns-staging
+    cert-manager.io/cluster-issuer: letsencrypt-dns-prod
 spec:
   tls:
   - hosts:
