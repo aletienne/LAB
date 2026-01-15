@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: etiennes-dev-wildcard-tls
   issuerRef:
-    name: letsencrypt-dns-staging
+    name: letsencrypt-dns-prod
     kind: ClusterIssuer
   dnsNames:
     - etiennes.dev
