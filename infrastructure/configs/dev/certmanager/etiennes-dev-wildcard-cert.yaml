@@ -1,0 +1,25 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: etiennes-dev-wildcard
+  namespace: cert-manager
+spec:
+  secretName: etiennes-dev-wildcard-tls
+  issuerRef:
+    name: letsencrypt-dns-staging
+    kind: ClusterIssuer
+  dnsNames:
+    - etiennes.dev
+    - "*.etiennes.dev"
+
+  secretTemplate:
+    annotations:
+      reflector.v1.k8s.emberstack.com/reflection-allowed: "true"
+      # limit who can receive copies (comma-separated namespaces and/or regexes)
+      # reflector.v1.k8s.emberstack.com/reflection-allowed-namespaces: "mealie,linkding,monitoring,namespace-[a-z0-9-]+"
+      reflector.v1.k8s.emberstack.com/reflection-allowed-namespaces: "mealie,linkding,monitoring"
+
+      # auto-create mirrors with the same name in those namespaces
+      reflector.v1.k8s.emberstack.com/reflection-auto-enabled: "true"
+      # reflector.v1.k8s.emberstack.com/reflection-auto-namespaces: "mealie,linkding,monitoring,namespace-[a-z0-9-]+"
+      reflector.v1.k8s.emberstack.com/reflection-auto-namespaces: "mealie,linkding,monitoring"
