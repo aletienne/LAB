@@ -4,3 +4,4 @@ resources:
   - cloudflare-api-token.yaml
   - clusterissuer-letsencrypt-dns-staging.yaml
   - clusterissuer-letsencrypt-dns-prod.yaml
+  - etiennes-dev-wildcard-cert.yaml
