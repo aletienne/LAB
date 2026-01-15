@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts:
     - mealie.etiennes.dev
-    secretName: mealie-etiennes-dev-tls
+    secretName: etiennes-dev-wildcard-tls
   rules:
   - host: mealie.etiennes.dev
     http:
