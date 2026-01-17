@@ -1,0 +1,22 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: qnap-trident
+  namespace: qnap-trident
+spec:
+  interval: 6h
+  releaseName: qnap-trident
+  targetNamespace: qnap-trident
+
+  chart:
+    spec:
+      chart: ./Helm/trident
+      version: 9.1.45
+      sourceRef:
+        kind: GitRepository
+        name: qnap-trident-repo
+        namespace: qnap-trident
+      interval: 12h
+
+  install:
+    createNamespace: true
