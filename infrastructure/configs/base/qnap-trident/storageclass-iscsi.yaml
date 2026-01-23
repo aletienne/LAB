@@ -7,4 +7,4 @@ parameters:
   selector: "performance=performance1"
   fsType: "ext4"
   replacementTimeout: "120"
-allowVolumeExpansion: true:wq!
+allowVolumeExpansion: true

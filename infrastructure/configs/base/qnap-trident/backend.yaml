@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
     name: backend-qts-secret
-    namespace: trident
+  namespace: qnap-trident
 type: Opaque
 stringData:
     username: ENC[AES256_GCM,data:qmcph5iobidYVg==,iv:J9q7dK4BCZioV4uQo+IAF0a3D0pMfsp4c6HWu/pL2K0=,tag:Hk0NGdfnXOdhVEvk/cmY5w==,type:str]
@@ -31,7 +31,7 @@ apiVersion: trident.qnap.io/v1
 kind: TridentBackendConfig
 metadata:
     name: backend-qts
-    namespace: trident
+  namespace: qnap-trident
 spec:
     version: 1
     storageDriverName: qnap-iscsi
