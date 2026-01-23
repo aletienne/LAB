@@ -11,7 +11,7 @@ spec:
   chart:
     spec:
       chart: ./Helm/trident
-      version: 9.1.45
+      version: 2.0.0
       sourceRef:
         kind: GitRepository
         name: qnap-trident-repo
