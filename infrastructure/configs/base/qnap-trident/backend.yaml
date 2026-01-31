@@ -5,8 +5,8 @@ metadata:
     namespace: qnap-trident
 type: Opaque
 stringData:
-    username: ENC[AES256_GCM,data:KIfwOhQzbEU=,iv:YntOql6kwzJH1RLZGtqHx/BJy5uuxaOOW2ipUMFbOjY=,tag:ftF+83UOJyre90wBNbvY6w==,type:str]
-    password: ENC[AES256_GCM,data:CkdisgzjqmCw,iv:PtWybjlZji+TkadmHuhIlUoS3GwuEq9bXmlJCuoSH18=,tag:U+MiRDADSazHcS5HUD+xzA==,type:str]
+    username: ENC[AES256_GCM,data:jqPc+j7dzglORS4=,iv:d3oMjGpEq9WEGBjqa/Y0pTcBAtkGF0pHalbRen4u6Ss=,tag:BHL18oMpIu0cSUQyHGz7bQ==,type:str]
+    password: ENC[AES256_GCM,data:UZUWiILaW2wvbJzt5cP2Lg==,iv:v+2No8y1lCNtdzu4qrgypciBLE8LIl5ev6yOTvBEONM=,tag:+peYelNHuJ/d/lRKSacGVg==,type:str]
     #ENC[AES256_GCM,data:KafgFr+sYEM3rw0PyaHuoRNP,iv:D+cgFzI4qkqD/5OiTRZUNQNJ3jOuX9D98Qq6dEuS2pk=,tag:fZrEClylfgI+WS90jSIGhw==,type:comment]
     storageAddress: ENC[AES256_GCM,data:cp57OcAXy65xBHJxlA==,iv:g4ezj7JENV9dVUNz9mcU+vH+B3wQCG1RyD4y2We938Q=,tag:ZNBW2Bp6TfAHiR1qp5Trcg==,type:str]
     https: ENC[AES256_GCM,data:+aig4+k=,iv:6XINAnn10ob9wvE41RW03yyCyc+4W/u6m7UueNxLENI=,tag:W2zpVUvqQzGAhxEli/MFDA==,type:str]
@@ -22,8 +22,8 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T23:41:26Z"
-    mac: ENC[AES256_GCM,data:0ZNzjU+l5XV0zWTjmv8qcW3ujmvBFNMaYvLRn6C+wYCO4dHI3pnInjZhdUz7esWpkX/RkcLsmpueDqQwU3RimjNjCEDPvfn8Qbfjmcrt4K19ofaSvqZXHKEDNJPbEmu8owUceFZrfrH0Y2xOfC991nqFedZIrz0V9UXN26tNbLw=,iv:XahNRG2lUCPG5Mq8etGGwqjqi/lR1XkVFRKeaypTygM=,tag:NDgyQNzaX6cVJftaLuu8TQ==,type:str]
+    lastmodified: "2026-01-31T23:59:02Z"
+    mac: ENC[AES256_GCM,data:fRwLK7rN+iHx0hUPttFtfX3T/VBvXid/MNFjqKBxNc2VDRWcFTCOljyKw/93wbeaznPfxQ4HNyjgWaQJubPrwrtm6Ar647RTM/y5mpbENtcQ/o2SVn5hIq3mzm7nGoPgR7wymC1Uxg76hpki717W19RUeeSinTQg3Q9vd0Xfm70=,iv:7de1W+W1cDXM2bUOXoiwQm2DwpeMoRoXSMOS92ktXdY=,tag:peTdbbyMa8oI8j5QsQStig==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
 ---
@@ -42,8 +42,8 @@ spec:
     credentials:
         name: backend-qts-secret
     storage:
-        - serviceLevel: qts-pool1
-          labels:
+        #- serviceLevel: qts-pool1
+        - labels:
             performance: performance1
           features:
             tiering: Enable
@@ -58,7 +58,7 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T23:41:26Z"
-    mac: ENC[AES256_GCM,data:0ZNzjU+l5XV0zWTjmv8qcW3ujmvBFNMaYvLRn6C+wYCO4dHI3pnInjZhdUz7esWpkX/RkcLsmpueDqQwU3RimjNjCEDPvfn8Qbfjmcrt4K19ofaSvqZXHKEDNJPbEmu8owUceFZrfrH0Y2xOfC991nqFedZIrz0V9UXN26tNbLw=,iv:XahNRG2lUCPG5Mq8etGGwqjqi/lR1XkVFRKeaypTygM=,tag:NDgyQNzaX6cVJftaLuu8TQ==,type:str]
+    lastmodified: "2026-01-31T23:59:02Z"
+    mac: ENC[AES256_GCM,data:fRwLK7rN+iHx0hUPttFtfX3T/VBvXid/MNFjqKBxNc2VDRWcFTCOljyKw/93wbeaznPfxQ4HNyjgWaQJubPrwrtm6Ar647RTM/y5mpbENtcQ/o2SVn5hIq3mzm7nGoPgR7wymC1Uxg76hpki717W19RUeeSinTQg3Q9vd0Xfm70=,iv:7de1W+W1cDXM2bUOXoiwQm2DwpeMoRoXSMOS92ktXdY=,tag:peTdbbyMa8oI8j5QsQStig==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
