@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Secret
 metadata:
     name: backend-qts-secret
-  namespace: qnap-trident
+    namespace: qnap-trident
 type: Opaque
 stringData:
-    username: ENC[AES256_GCM,data:qmcph5iobidYVg==,iv:J9q7dK4BCZioV4uQo+IAF0a3D0pMfsp4c6HWu/pL2K0=,tag:Hk0NGdfnXOdhVEvk/cmY5w==,type:str]
+    username: ENC[AES256_GCM,data:1TTF7e/dRi5j94Q=,iv:8hfIxX7irO7ry1YTeq/m0NoDGc34iHBmxlkLyyYikho=,tag:VwLh7YHHPwnyx7JeaaOomQ==,type:str]
     password: ENC[AES256_GCM,data:FCfzGNaJV+GOmydYeRRo+Q==,iv:B4PdxDfhILQp6m6is6QPLacx+A121xrm2tlHBEfHAkY=,tag:Cduakg6ktbwhXLvdNxZeaA==,type:str]
     #ENC[AES256_GCM,data:KafgFr+sYEM3rw0PyaHuoRNP,iv:D+cgFzI4qkqD/5OiTRZUNQNJ3jOuX9D98Qq6dEuS2pk=,tag:fZrEClylfgI+WS90jSIGhw==,type:comment]
     storageAddress: ENC[AES256_GCM,data:cp57OcAXy65xBHJxlA==,iv:g4ezj7JENV9dVUNz9mcU+vH+B3wQCG1RyD4y2We938Q=,tag:ZNBW2Bp6TfAHiR1qp5Trcg==,type:str]
@@ -22,8 +22,8 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-17T18:17:49Z"
-    mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
+    lastmodified: "2026-01-31T19:08:41Z"
+    mac: ENC[AES256_GCM,data:dsyucni+ip2lIMoSj50KCqWodgbIaWiRABI/2URdrckj+BmNAFe6UKqQvdmd0rMwgAjo2sY6+NwmixRyYFkl2xGXr7TfYNgG5loGWaLKFv5Gh7WZcY8UuTSD/GxbQfS0f2zykTWDsi/rCgT0GGUjCeDGrN45NApj4aKOcPNWZdE=,iv:pl4nIIXrmb7/MTy7cfbM9D8OFnPB7PP2XDRejgV6CeU=,tag:CojM+mQlT0IatVsOiwsujw==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
 ---
@@ -31,7 +31,7 @@ apiVersion: trident.qnap.io/v1
 kind: TridentBackendConfig
 metadata:
     name: backend-qts
-  namespace: qnap-trident
+    namespace: qnap-trident
 spec:
     version: 1
     storageDriverName: qnap-iscsi
@@ -58,7 +58,7 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-17T18:17:49Z"
-    mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
+    lastmodified: "2026-01-31T19:08:41Z"
+    mac: ENC[AES256_GCM,data:dsyucni+ip2lIMoSj50KCqWodgbIaWiRABI/2URdrckj+BmNAFe6UKqQvdmd0rMwgAjo2sY6+NwmixRyYFkl2xGXr7TfYNgG5loGWaLKFv5Gh7WZcY8UuTSD/GxbQfS0f2zykTWDsi/rCgT0GGUjCeDGrN45NApj4aKOcPNWZdE=,iv:pl4nIIXrmb7/MTy7cfbM9D8OFnPB7PP2XDRejgV6CeU=,tag:CojM+mQlT0IatVsOiwsujw==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
