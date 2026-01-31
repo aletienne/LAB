@@ -22,8 +22,8 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T20:45:36Z"
-    mac: ENC[AES256_GCM,data:QMcLJSW4Xa0aIzczg0CapL9aKN1ybDghwhPreUw162jGEoAf/o+PtrQ64AJrSSWvGB0v6/ZH75dDTRsbRren0avO2nm9B8OZyNpkF63f93q1EhxTrFiGEEazoi+fcoY8+bo2cx90AArmQa2fMFYb6BmETyMGwoRg+e75jmKYl0U=,iv:HUKxviNWNhsEWC/OGMk8LG6WFJMZ6tG1NsW6fvmtS4I=,tag:LWKO93N+YZStD0kJfgaclA==,type:str]
+    lastmodified: "2026-01-31T23:04:34Z"
+    mac: ENC[AES256_GCM,data:wUsMVv3uYIodNCZgFM7EFbnN9bROYwQMsNMqm4coRaVY5Oo7Z2MBGOCsW7dgsCXgL5g2Cf1CttUrxCqDSn+Ybn7cKda4aErwflDd2cryjT1f/Mts5m8OFlk9SgmPzac2LKglQnWH/uzWwxb0IfNl2lpPzGTxtHgg6xbD7tl6KtU=,iv:IM6TRPGq9ouXiz1cMgvKK7r/ubINzSFaX+7MJOiKeu4=,tag:idQWE7TVUseLR3jlxk1ADQ==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
 ---
@@ -38,7 +38,7 @@ spec:
     backendName: qts
     networkInterfaces:
         # optional
-        - Adapter2
+        - Adapter 2
     credentials:
         name: backend-qts-secret
     storage:
@@ -58,7 +58,7 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T20:45:36Z"
-    mac: ENC[AES256_GCM,data:QMcLJSW4Xa0aIzczg0CapL9aKN1ybDghwhPreUw162jGEoAf/o+PtrQ64AJrSSWvGB0v6/ZH75dDTRsbRren0avO2nm9B8OZyNpkF63f93q1EhxTrFiGEEazoi+fcoY8+bo2cx90AArmQa2fMFYb6BmETyMGwoRg+e75jmKYl0U=,iv:HUKxviNWNhsEWC/OGMk8LG6WFJMZ6tG1NsW6fvmtS4I=,tag:LWKO93N+YZStD0kJfgaclA==,type:str]
+    lastmodified: "2026-01-31T23:04:34Z"
+    mac: ENC[AES256_GCM,data:wUsMVv3uYIodNCZgFM7EFbnN9bROYwQMsNMqm4coRaVY5Oo7Z2MBGOCsW7dgsCXgL5g2Cf1CttUrxCqDSn+Ybn7cKda4aErwflDd2cryjT1f/Mts5m8OFlk9SgmPzac2LKglQnWH/uzWwxb0IfNl2lpPzGTxtHgg6xbD7tl6KtU=,iv:IM6TRPGq9ouXiz1cMgvKK7r/ubINzSFaX+7MJOiKeu4=,tag:idQWE7TVUseLR3jlxk1ADQ==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
