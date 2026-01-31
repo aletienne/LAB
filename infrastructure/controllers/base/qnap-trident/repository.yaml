@@ -5,6 +5,7 @@ metadata:
   namespace: qnap-trident
 spec:
   interval: 24h
-  url: https://github.com/qnap-dev/QNAP-CSI-PlugIn.git
+  #url: https://github.com/qnap-dev/QNAP-CSI-PlugIn.git
+  url: https://github.com/aletienne/QNAP-CSI-PlugIn.git
   ref:
     tag: v1.6.0
