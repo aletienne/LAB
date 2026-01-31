@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-    name: backend-qts-secret
+  name: backend-qts-secret
   namespace: qnap-trident
 type: Opaque
 stringData:
@@ -30,7 +30,7 @@ sops:
 apiVersion: trident.qnap.io/v1
 kind: TridentBackendConfig
 metadata:
-    name: backend-qts
+  name: backend-qts
   namespace: qnap-trident
 spec:
     version: 1
