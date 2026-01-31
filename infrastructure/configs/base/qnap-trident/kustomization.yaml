@@ -3,4 +3,3 @@ kind: Kustomization
 resources:
   - backend.yaml
   - storageclass-iscsi.yaml
-  - pvc.yaml
