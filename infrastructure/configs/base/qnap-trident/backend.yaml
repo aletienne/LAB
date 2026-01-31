@@ -22,8 +22,8 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T23:04:34Z"
-    mac: ENC[AES256_GCM,data:wUsMVv3uYIodNCZgFM7EFbnN9bROYwQMsNMqm4coRaVY5Oo7Z2MBGOCsW7dgsCXgL5g2Cf1CttUrxCqDSn+Ybn7cKda4aErwflDd2cryjT1f/Mts5m8OFlk9SgmPzac2LKglQnWH/uzWwxb0IfNl2lpPzGTxtHgg6xbD7tl6KtU=,iv:IM6TRPGq9ouXiz1cMgvKK7r/ubINzSFaX+7MJOiKeu4=,tag:idQWE7TVUseLR3jlxk1ADQ==,type:str]
+    lastmodified: "2026-01-31T23:41:26Z"
+    mac: ENC[AES256_GCM,data:0ZNzjU+l5XV0zWTjmv8qcW3ujmvBFNMaYvLRn6C+wYCO4dHI3pnInjZhdUz7esWpkX/RkcLsmpueDqQwU3RimjNjCEDPvfn8Qbfjmcrt4K19ofaSvqZXHKEDNJPbEmu8owUceFZrfrH0Y2xOfC991nqFedZIrz0V9UXN26tNbLw=,iv:XahNRG2lUCPG5Mq8etGGwqjqi/lR1XkVFRKeaypTygM=,tag:NDgyQNzaX6cVJftaLuu8TQ==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
 ---
@@ -42,7 +42,7 @@ spec:
     credentials:
         name: backend-qts-secret
     storage:
-        - serviceLevel: pool1
+        - serviceLevel: qts-pool1
           labels:
             performance: performance1
           features:
@@ -58,7 +58,7 @@ sops:
             WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
             KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-31T23:04:34Z"
-    mac: ENC[AES256_GCM,data:wUsMVv3uYIodNCZgFM7EFbnN9bROYwQMsNMqm4coRaVY5Oo7Z2MBGOCsW7dgsCXgL5g2Cf1CttUrxCqDSn+Ybn7cKda4aErwflDd2cryjT1f/Mts5m8OFlk9SgmPzac2LKglQnWH/uzWwxb0IfNl2lpPzGTxtHgg6xbD7tl6KtU=,iv:IM6TRPGq9ouXiz1cMgvKK7r/ubINzSFaX+7MJOiKeu4=,tag:idQWE7TVUseLR3jlxk1ADQ==,type:str]
+    lastmodified: "2026-01-31T23:41:26Z"
+    mac: ENC[AES256_GCM,data:0ZNzjU+l5XV0zWTjmv8qcW3ujmvBFNMaYvLRn6C+wYCO4dHI3pnInjZhdUz7esWpkX/RkcLsmpueDqQwU3RimjNjCEDPvfn8Qbfjmcrt4K19ofaSvqZXHKEDNJPbEmu8owUceFZrfrH0Y2xOfC991nqFedZIrz0V9UXN26tNbLw=,iv:XahNRG2lUCPG5Mq8etGGwqjqi/lR1XkVFRKeaypTygM=,tag:NDgyQNzaX6cVJftaLuu8TQ==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.11.0
