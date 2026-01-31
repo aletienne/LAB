@@ -5,27 +5,27 @@ metadata:
   namespace: qnap-trident
 type: Opaque
 stringData:
-    username: ENC[AES256_GCM,data:qmcph5iobidYVg==,iv:J9q7dK4BCZioV4uQo+IAF0a3D0pMfsp4c6HWu/pL2K0=,tag:Hk0NGdfnXOdhVEvk/cmY5w==,type:str]
-    password: ENC[AES256_GCM,data:FCfzGNaJV+GOmydYeRRo+Q==,iv:B4PdxDfhILQp6m6is6QPLacx+A121xrm2tlHBEfHAkY=,tag:Cduakg6ktbwhXLvdNxZeaA==,type:str]
-    #ENC[AES256_GCM,data:KafgFr+sYEM3rw0PyaHuoRNP,iv:D+cgFzI4qkqD/5OiTRZUNQNJ3jOuX9D98Qq6dEuS2pk=,tag:fZrEClylfgI+WS90jSIGhw==,type:comment]
-    storageAddress: ENC[AES256_GCM,data:cp57OcAXy65xBHJxlA==,iv:g4ezj7JENV9dVUNz9mcU+vH+B3wQCG1RyD4y2We938Q=,tag:ZNBW2Bp6TfAHiR1qp5Trcg==,type:str]
-    https: ENC[AES256_GCM,data:oKJ/xXY=,iv:y3iRffWNAqTA4x4ref/nQPhZILX3OIGdt8Sbmq4B7G0=,tag:4Y4aJSyS39262MOUz2gfLg==,type:str]
-    port: ENC[AES256_GCM,data:AH0EIQ==,iv:oDG3haJ8ggqJkiMRRwHu2i0effdupffyImEgJ7R0LQY=,tag:s7Cy7QeWUGBdtYdFjF4u6g==,type:str]
+  username: ENC[AES256_GCM,data:qmcph5iobidYVg==,iv:J9q7dK4BCZioV4uQo+IAF0a3D0pMfsp4c6HWu/pL2K0=,tag:Hk0NGdfnXOdhVEvk/cmY5w==,type:str]
+  password: ENC[AES256_GCM,data:FCfzGNaJV+GOmydYeRRo+Q==,iv:B4PdxDfhILQp6m6is6QPLacx+A121xrm2tlHBEfHAkY=,tag:Cduakg6ktbwhXLvdNxZeaA==,type:str]
+  #ENC[AES256_GCM,data:KafgFr+sYEM3rw0PyaHuoRNP,iv:D+cgFzI4qkqD/5OiTRZUNQNJ3jOuX9D98Qq6dEuS2pk=,tag:fZrEClylfgI+WS90jSIGhw==,type:comment]
+  storageAddress: ENC[AES256_GCM,data:cp57OcAXy65xBHJxlA==,iv:g4ezj7JENV9dVUNz9mcU+vH+B3wQCG1RyD4y2We938Q=,tag:ZNBW2Bp6TfAHiR1qp5Trcg==,type:str]
+  https: ENC[AES256_GCM,data:oKJ/xXY=,iv:y3iRffWNAqTA4x4ref/nQPhZILX3OIGdt8Sbmq4B7G0=,tag:4Y4aJSyS39262MOUz2gfLg==,type:str]
+  port: ENC[AES256_GCM,data:AH0EIQ==,iv:oDG3haJ8ggqJkiMRRwHu2i0effdupffyImEgJ7R0LQY=,tag:s7Cy7QeWUGBdtYdFjF4u6g==,type:str]
 sops:
-    age:
-        - recipient: age1sj99kupy552w8el4m2nydhpy89d5d7t968944dzac5xpu0k98duq8lqcf0
-          enc: |
-            -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjZDdpS3Q0UFRZMGpqM21Z
-            eGMwSEo1Z3k3TTRsOGZYQVVMRWpBc1J4b1FJCm5zSnJMRHhSckdvbFJYVXhSMGIz
-            d0wzTmVibHdrRDZsZzZZMjB6dUhUcGMKLS0tIFpxcVVkN3ZQOGpqOHcrVjVzTGZI
-            WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
-            KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
-            -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-17T18:17:49Z"
-    mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
-    encrypted_regex: ^(data|stringData)$
-    version: 3.11.0
+  age:
+    - recipient: age1sj99kupy552w8el4m2nydhpy89d5d7t968944dzac5xpu0k98duq8lqcf0
+      enc: |
+        -----BEGIN AGE ENCRYPTED FILE-----
+        YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjZDdpS3Q0UFRZMGpqM21Z
+        eGMwSEo1Z3k3TTRsOGZYQVVMRWpBc1J4b1FJCm5zSnJMRHhSckdvbFJYVXhSMGIz
+        d0wzTmVibHdrRDZsZzZZMjB6dUhUcGMKLS0tIFpxcVVkN3ZQOGpqOHcrVjVzTGZI
+        WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
+        KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
+        -----END AGE ENCRYPTED FILE-----
+  lastmodified: "2026-01-17T18:17:49Z"
+  mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
+  encrypted_regex: ^(data|stringData)$
+  version: 3.11.0
 ---
 apiVersion: trident.qnap.io/v1
 kind: TridentBackendConfig
@@ -33,32 +33,32 @@ metadata:
   name: backend-qts
   namespace: qnap-trident
 spec:
-    version: 1
-    storageDriverName: qnap-iscsi
-    backendName: qts
-    networkInterfaces:
-        # optional
-        - Adapter2
-    credentials:
-        name: backend-qts-secret
-    storage:
-        - serviceLevel: pool1
-          labels:
-            performance: performance1
-          features:
-            tiering: Enable
+  version: 1
+  storageDriverName: qnap-iscsi
+  backendName: qts
+  networkInterfaces:
+    # optional
+    - Adapter2
+  credentials:
+    name: backend-qts-secret
+  storage:
+    - serviceLevel: pool1
+      labels:
+        performance: performance1
+      features:
+        tiering: Enable
 sops:
-    age:
-        - recipient: age1sj99kupy552w8el4m2nydhpy89d5d7t968944dzac5xpu0k98duq8lqcf0
-          enc: |
-            -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjZDdpS3Q0UFRZMGpqM21Z
-            eGMwSEo1Z3k3TTRsOGZYQVVMRWpBc1J4b1FJCm5zSnJMRHhSckdvbFJYVXhSMGIz
-            d0wzTmVibHdrRDZsZzZZMjB6dUhUcGMKLS0tIFpxcVVkN3ZQOGpqOHcrVjVzTGZI
-            WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
-            KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
-            -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-17T18:17:49Z"
-    mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
-    encrypted_regex: ^(data|stringData)$
-    version: 3.11.0
+  age:
+    - recipient: age1sj99kupy552w8el4m2nydhpy89d5d7t968944dzac5xpu0k98duq8lqcf0
+      enc: |
+        -----BEGIN AGE ENCRYPTED FILE-----
+        YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjZDdpS3Q0UFRZMGpqM21Z
+        eGMwSEo1Z3k3TTRsOGZYQVVMRWpBc1J4b1FJCm5zSnJMRHhSckdvbFJYVXhSMGIz
+        d0wzTmVibHdrRDZsZzZZMjB6dUhUcGMKLS0tIFpxcVVkN3ZQOGpqOHcrVjVzTGZI
+        WmJXYkc2UXZadk9EZmR2YXF0TFJKY1UKamoFKhZZvBznbP85g8vgMGG1+9JZguuH
+        KcmHGTzFdmkCHgO6qlBmqBMATMMp0AqSyQA5PJPgq/lDp6UcKOI2Hw==
+        -----END AGE ENCRYPTED FILE-----
+  lastmodified: "2026-01-17T18:17:49Z"
+  mac: ENC[AES256_GCM,data:lcs2gxI43jJ5KBeMoVJDkhx+ohus5Bv0TtjhHFprAnlqOwJd2Ubxt6E20gUC7TKhrIi8c8rcW/sFR9nrj2L+r62xiLhaURFDCiIUOkQUoO/fd0Y8/RR+43vJg6boK+IbqYoyVm4hIGkwKG90qui+vXTqXYH4BX7WJAhJ3ErxQME=,iv:K6lBxJXncx43G4IZ5TcEozAs7cndzqliQHEZ+6QwRfE=,tag:gOIrdUC8PftBGNd9OWVCRQ==,type:str]
+  encrypted_regex: ^(data|stringData)$
+  version: 3.11.0
