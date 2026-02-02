@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: audiobookshelf
+  namespace: audiobookshelf
 spec:
   replicas: 1
   selector:
@@ -19,6 +20,8 @@ spec:
       containers:
         - name: audiobookshelf
           image: ghcr.io/advplyr/audiobookshelf:2.32.1
+          ports:
+          - containerPort: 3005
           securityContext:
             allowPrivilegeEscalation: false
           volumeMounts:
