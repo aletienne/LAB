@@ -34,8 +34,8 @@ spec:
             - mountPath: /etc/audiobookshelf/metadata
               name: audiobookshelf-metadata
           envFrom:
-            - configMapRef:
-                name: audiobookshelf-config
+            #- configMapRef:
+            #    name: audiobookshelf-config
             #- secretRef:
             #    name: audiobookshelf-container-env
       volumes:
