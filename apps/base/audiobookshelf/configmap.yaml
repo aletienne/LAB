@@ -4,5 +4,4 @@ metadata:
   name: audiobookshelf-config
   namespace: audiobookshelf
 data:
-  ports:
-    - containerPort: 3005
+  PORT: "80"
