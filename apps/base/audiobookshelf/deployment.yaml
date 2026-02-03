@@ -14,6 +14,7 @@ spec:
         app: audiobookshelf
     spec:
       securityContext:
+        fsGroup: 1000 # node gid
         runAsUser: 1000 # node uid
         runAsGroup: 1000 # node gid
       containers:
